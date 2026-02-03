@@ -33,3 +33,24 @@ document.getElementById("akanForm").addEventListener("submit", function (e) {
         m +=12;
         y -=1;
     }
+
+const K = y % 100;
+const J = Math.floor(y/100);
+
+const dayofWeek = (day + Math.floor((13 * (m +1)) / 5) + K + Math.floor(K / 4) + Math.floor(J / 4)+5 * J) %7;
+
+const index = dayofWeek
+
+const akanName = gender === "male" ? maleNames[index] : femaleNames[index];
+
+document.getElementById("result").innerHTML =
+    `You were born on a <strong>${days[index]}</strong>.<br>
+    Your Akan name is <strong>${akanName}</strong>.`;
+
+//Clear form
+document.getElementById("akanForm").reset();
+});
+
+
+
+
