@@ -23,7 +23,7 @@ document.getElementById("akanForm").addEventListener("submit", function (e) {
 
      //Akan names
      const maleNames = ["Kwame","Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi"];
-     const femaleNames = ["Ama","Akosua","Adwoa","Abenna","Yaa","Afua"];
+     const femaleNames = ["Ama","Akosua","Adwoa","Abenna","Akua","Yaa","Afua"];
      const days = ["Saturday","Sunday","Monday","Tuesday","Wednesday","Thursday","Friday"];
 
      //math
