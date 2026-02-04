@@ -3,13 +3,17 @@
     padding: 20 px;
     color: rgb(197, 26, 40);
 }
+.All{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .All form{
     justify-content: center;
     align-items: center;
     padding: 100px;
     border: solid black 2px;
-    margin: 100px 200px;
     width: 50%;
     height: 30px;
     background-color: rgb(9, 105, 140);
@@ -46,8 +50,6 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 200vh;
-    margin:0;
 }
 
 #result{
